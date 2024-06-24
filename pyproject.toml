@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Mini-app to receive image covers and save them so i can link to them"
 authors = ["Niko Shens <voidlynx@icloud.com>"]
 readme = "README.md"
+licens = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.12"
