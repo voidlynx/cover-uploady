@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cover-uploady"
+version = "0.1.0"
+description = "Mini-app to receive image covers and save them so i can link to them"
+authors = ["Niko Shens <voidlynx@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
