@@ -5,11 +5,11 @@ description = "Mini-app to receive image covers and save them so i can link to t
 authors = ["Niko Shens <voidlynx@icloud.com>"]
 readme = "README.md"
 license = "MIT"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
 Flask = "^3.0.3"
-
 
 [build-system]
 requires = ["poetry-core"]
