@@ -24,4 +24,4 @@ if "message" not in data:
 
 where env.SECRET is the secret string and the image thing is an image as bytes. hopefully jpg.
 
-TODO: image resizing and converting (256x256), random ID generation for links to bypass discord caching 
+**WEATHER UPDATE**: 0.2.0 now returns a "hash" 6-char string along with the upload success data. you can use it to bypass caching like in discord by accessing it at `/<hash>.jpg`. `/cover.jpg` still works in case you don't really need all that.
