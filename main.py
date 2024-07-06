@@ -20,6 +20,9 @@ def uploadImage():
         return jsonify({"error":"Invalid secret"}), 401
     imageFile = request.files["image"]
     imageFile, imageHash = hashAndSize(imageFile.read())
+    # i hate that i have to do this. please just save to jpeg, why do you need to complain
+    if imageFile.mode in ["RGBA","P"]: 
+        imageFile = imageFile.convert("RGB")
     imageFile.save("cover.jpg")
     return jsonify({"message":"Image uploaded successfully", "hash":imageHash}), 200
 

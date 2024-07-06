@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cover-uploady"
-version = "0.2.0"
+version = "0.2.1"
 description = "Mini-app to receive image covers and save them so i can link to them"
 authors = ["Niko Shens <voidlynx@icloud.com>"]
 readme = "README.md"
